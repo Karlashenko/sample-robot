@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTween.Modules", "DOTween.Modules.csproj", "{47f871b4-9c36-ba08-9fce-f2550c3f2940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robotics", "Robotics.csproj", "{c6bdb8d4-866c-71df-7dc6-ffbd07714cec}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robotics.Editor", "Robotics.Editor.csproj", "{756b198a-d701-07aa-25d1-d2d18c1597f3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6d08f62d-a458-18a2-2edb-b870b38593f8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47f871b4-9c36-ba08-9fce-f2550c3f2940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47f871b4-9c36-ba08-9fce-f2550c3f2940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c6bdb8d4-866c-71df-7dc6-ffbd07714cec}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c6bdb8d4-866c-71df-7dc6-ffbd07714cec}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756b198a-d701-07aa-25d1-d2d18c1597f3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756b198a-d701-07aa-25d1-d2d18c1597f3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6d08f62d-a458-18a2-2edb-b870b38593f8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6d08f62d-a458-18a2-2edb-b870b38593f8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
