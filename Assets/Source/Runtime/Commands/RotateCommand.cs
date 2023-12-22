@@ -21,6 +21,5 @@ namespace Robotics.Commands
             await subject.transform.DORotate(_data.TargetRotation, _data.DurationSeconds)
                 .ToUniTask(cancellationToken: cancellationToken);
         }
-
     }
 }

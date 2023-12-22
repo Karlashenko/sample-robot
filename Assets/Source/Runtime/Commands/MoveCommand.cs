@@ -21,6 +21,5 @@ namespace Robotics.Commands
             await subject.transform.DOMove(_data.TargetPosition, _data.DurationSeconds)
                 .ToUniTask(cancellationToken: cancellationToken);
         }
-
     }
 }

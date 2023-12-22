@@ -21,6 +21,5 @@ namespace Robotics.Commands
             await subject.GetComponent<Renderer>().material.DOColor(_data.Color, _data.DurationSeconds)
                 .ToUniTask(cancellationToken: cancellationToken);
         }
-
     }
 }

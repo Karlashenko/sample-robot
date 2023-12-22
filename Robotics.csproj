@@ -51,6 +51,7 @@
     <Compile Include="Assets/Source/Runtime/Data/MoveCommandData.cs" />
     <Compile Include="Assets/Source/Runtime/Commands/ChangeColorCommand.cs" />
     <Compile Include="Assets/Source/Runtime/Commands/RotateCommand.cs" />
+    <Compile Include="Assets/Source/Runtime/Utility/ReadOnlyAttribute.cs" />
     <Compile Include="Assets/Source/Runtime/Instruction.cs" />
     <Compile Include="Assets/Source/Runtime/Data/RotateCommandData.cs" />
     <Compile Include="Assets/Source/Runtime/Data/CommandData.cs" />

@@ -9,7 +9,8 @@ namespace Robotics
 
         private async void Start()
         {
-            await new SequenceCommand(_instruction.Commands).ExecuteAsync(gameObject, destroyCancellationToken);
+            await new SequenceCommand(_instruction.Commands)
+                .ExecuteAsync(gameObject, destroyCancellationToken);
         }
     }
 }
