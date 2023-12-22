@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a7d78c7e324477fb860ce15c889d132, type: 3}
   m_Name: Instruction_02
   m_EditorClassIdentifier: 
-  Commands:
+  _commands:
   - rid: 6010122383060369428
   - rid: 6010122383060369429
   - rid: 6010122383060369430

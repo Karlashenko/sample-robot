@@ -1,5 +1,3 @@
-using System;
-using Robotics.Data;
 using UnityEditor;
 using UnityEngine;
 
@@ -32,22 +30,7 @@ namespace Robotics.Editor
 
             if (GUILayout.Button("Add Command"))
             {
-                _instruction.Commands.Add(CreateCommandByType(_commandType));
-            }
-        }
-
-        private static CommandData CreateCommandByType(CommandType commandType)
-        {
-            switch (commandType)
-            {
-                case CommandType.ChangeColor:
-                    return new ChangeColorCommandData { CommandType = commandType };
-                case CommandType.Move:
-                    return new MoveCommandData { CommandType = commandType };
-                case CommandType.Rotate:
-                    return new RotateCommandData { CommandType = commandType };
-                default:
-                    throw new ArgumentOutOfRangeException();
+                _instruction.AddCommand(_commandType);
             }
         }
     }
