@@ -17,7 +17,7 @@ namespace Robotics
 
         public void AddCommand(CommandType commandType)
         {
-            _commands.Add(CreateCommandByType(commandType));
+            _commands.Add(CreateCommandData(commandType));
         }
 
         private void OnValidate()
@@ -25,7 +25,7 @@ namespace Robotics
             _commands = _commands.Where(x => x is not null).ToList();
         }
 
-        private static CommandData CreateCommandByType(CommandType commandType)
+        private static CommandData CreateCommandData(CommandType commandType)
         {
             switch (commandType)
             {
