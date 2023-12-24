@@ -317,6 +317,9 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>/Users/qd/Projects/Robotics/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>/Users/qd/Projects/Robotics/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>/Users/qd/Projects/Robotics/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -332,14 +335,11 @@
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>/Users/qd/Projects/Robotics/Library/PackageCache/com.unity.visualscripting@1.9.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>/Users/qd/Projects/Robotics/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    <Reference Include="DOTween">
+      <HintPath>/Users/qd/Projects/Robotics/Assets/ThirdParty/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>/Users/qd/Projects/Robotics/Assets/ThirdParty/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>/Users/qd/Projects/Robotics/Assets/ThirdParty/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/qd/Projects/Robotics/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
