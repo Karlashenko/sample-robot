@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Robotics.Commands;
 using UnityEngine;
 
@@ -5,12 +6,15 @@ namespace Robotics
 {
     public class Robot : MonoBehaviour
     {
-        [SerializeField] private Instruction _instruction = null!;
+        [SerializeField] private List<Instruction> _instructions = new();
 
         private async void Start()
         {
-            await new SequenceCommand(_instruction.Commands)
-                .ExecuteAsync(gameObject, destroyCancellationToken);
+            foreach (var instruction in _instructions)
+            {
+                await new SequenceCommand(instruction.Commands)
+                    .ExecuteAsync(gameObject, destroyCancellationToken);
+            }
         }
     }
 }
